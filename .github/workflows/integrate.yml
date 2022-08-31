@@ -1,4 +1,4 @@
-name: Math Notes Continuos Integration
+name: Math Notes Continuous Integration
 
 on: 
   pull_request:
@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 16.x
-      - run: npm ci
+      - run: npm i
       - run: npm test
       - run: npm run lint
       - run: npm run build
