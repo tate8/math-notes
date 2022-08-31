@@ -1,0 +1,5 @@
+.notepad-container {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+}
